@@ -33,7 +33,7 @@ jobs:
           ctest --output-on-failure
           cat Testing/Temporary/LastTest.log
       - name: Upload test logs as artifact
-        uses: actions/upload-artifact@latest
+        uses: actions/upload-artifact@v3
         with:
           name: test-logs
           path: Testing/Temporary/LastTest.log
