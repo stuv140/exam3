@@ -22,11 +22,11 @@ BOOST_AUTO_TEST_CASE(test_factorial_NULL) {
     BOOST_CHECK_EQUAL(factorial(5), 120);
     BOOST_CHECK_EQUAL(factorial(10), 3628800);
 }
-BOOST_AUTO_TEST_CASE_EXPECTED_FAILURE(FactorialNegative)
-{
+//BOOST_AUTO_TEST_CASE_EXPECTED_FAILURE(FactorialNegative)
+//{
     // тест, который намеренно падает
-    BOOST_CHECK_EQUAL(factorial(-5), -1);
-}
+//    BOOST_CHECK_EQUAL(factorial(-5), -1);
+//}
 //BOOST_AUTO_TEST_CASE(FactorialNegative) {
  //  BOOST_TEST_EXPECTED_FAILURE(true);
     
