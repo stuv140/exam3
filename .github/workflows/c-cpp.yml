@@ -31,6 +31,7 @@ jobs:
       - name: Run tests and display logs
         run: |
           ctest --output-on-failure
+          path: Testing/Temporary/LastTest.log
           cat /Tests/Temporary/LastTest.log
       - name: Upload test logs as artifact
         uses: actions/upload-artifact@latest
