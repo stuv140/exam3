@@ -31,13 +31,12 @@ jobs:
       - name: Run tests and display logs
         run: |
           ctest --output-on-failure
-          path: Testing/Temporary/LastTest.log
-          cat /Tests/Temporary/LastTest.log
+          cat Testing/Temporary/LastTest.log
       - name: Upload test logs as artifact
         uses: actions/upload-artifact@latest
         with:
           name: test-logs
-          path: /Tests/Temporary/LastTest.log
+          path: Testing/Temporary/LastTest.log
       - name: Upload Release Asset
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
