@@ -28,7 +28,7 @@ BOOST_AUTO_TEST_CASE(test_factorial_NULL) {
 //    BOOST_CHECK_EQUAL(factorial(-5), -1);
 //}
 //BOOST_AUTO_TEST_CASE(FactorialNegative) {
- //  BOOST_TEST_EXPECTED_FAILURE(true);
+ //  BOOST_TEST_EXPECTED_FAILURE(true); 
     
 //}
 
